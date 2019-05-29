@@ -27,6 +27,12 @@ fieldset, img {
 display: block;
   width: 100%;}
 
+@media (orientation: portrait) {
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+
 address, caption, cite, code, dfn, em, strong, th, var {
   font-style: normal;
   font-weight: normal; }
