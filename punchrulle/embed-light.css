@@ -1,6 +1,8 @@
 *, html, body, button, input, textarea, select {
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+background-color: #870f87;
+}
 
 a {
   color: #39464E;
