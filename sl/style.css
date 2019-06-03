@@ -1,0 +1,123 @@
+
+/* Loggan bla */
+.navbar {
+  overflow: hidden;
+  background-color: #870f87;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  height: auto;
+  align-content: center;
+  left: 0px;
+
+}
+
+
+/* scrollbart */
+.main {
+
+
+align-content: center;
+
+
+}
+
+
+/* menyn */
+.botten {
+  overflow: hidden;
+bottom:  -2px; /* Position the navbar at the top of the page */
+  position: fixed; /* Set the navbar to fixed position */
+width: 100%; /* Full width */
+height: auto;
+left: 0px;
+}
+
+
+
+
+.body {
+  background-image: url("bakgrund.png");
+
+
+
+animation:clouds_anim 600s linear infinite;
+}
+
+@keyframes clouds_anim{
+0%{background-position: 0 0; }
+100%{background-position: -30000px -30000px;}
+
+}
+
+/* TILL KORTFLIPP */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+  background: #870f87;
+  font-family: Open Sans;
+  font-size: 50px;
+  color: #222;
+}
+
+label {
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  display: block;
+  width: 1030px;
+  height: 1600px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.card {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: all 600ms;
+  transition: all 600ms;
+  z-index: 20;
+}
+
+.card div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+  text-align: center;
+  line-height: 200px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 2px;
+}
+
+.card .back {
+
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+
+
+input {
+  display: none;
+}
+
+:checked + .card {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+
+label:hover :checked + .card {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+
+}
