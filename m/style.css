@@ -26,7 +26,7 @@ align-content: center;
 /* menyn */
 .botten {
   overflow: hidden;
-bottom:  -12px; /* Position the navbar at the top of the page */
+bottom:  -20px; /* Position the navbar at the top of the page */
   position: fixed; /* Set the navbar to fixed position */
 width: 100%; /* Full width */
 height: auto;
@@ -70,7 +70,7 @@ label {
   height: 1600px;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 52%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   cursor: pointer;
