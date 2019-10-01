@@ -1,60 +1,6 @@
-
-/* Loggan bla */
-.navbar {
-  overflow: hidden;
-  background-color: #000087;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  height: auto;
-  align-content: center;
-  left: 0px;
-
-}
-
-
-/* scrollbart */
-.main {
-
-
-align-content: center;
-
-
-}
-
-
-/* menyn */
-.botten {
-  overflow: hidden;
-bottom:  -2px; /* Position the navbar at the top of the page */
-  position: fixed; /* Set the navbar to fixed position */
-width: 100%; /* Full width */
-height: auto;
-left: 0px;
-}
-
-
-
-
-.body {
-  background-image: url("bakgrund.png");
-
-
-
-animation:clouds_anim 600s linear infinite;
-}
-
-@keyframes clouds_anim{
-0%{background-position: 0 0; }
-100%{background-position: -30000px -30000px;}
-
-}
-
-/* TILL KORTFLIPP */
-
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 body {
-  background: #870f87;
+  background: black;
   font-family: Open Sans;
   font-size: 50px;
   color: #222;
@@ -67,7 +13,7 @@ label {
   transform-style: preserve-3d;
   display: block;
   width: 1030px;
-  height: 1600px;
+  height: 1400px;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -120,10 +66,4 @@ label:hover :checked + .card {
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
 
-}
-
-body {
-  /* Disables pull-to-refresh and overscroll glow effect.
-     Still keeps swipe navigations. */
-  overscroll-behavior-y: none;
 }
