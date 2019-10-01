@@ -26,7 +26,7 @@ align-content: center;
 /* menyn */
 .botten {
   overflow: hidden;
-bottom:  -2px; /* Position the navbar at the top of the page */
+bottom:  -12px; /* Position the navbar at the top of the page */
   position: fixed; /* Set the navbar to fixed position */
 width: 100%; /* Full width */
 height: auto;
@@ -54,7 +54,7 @@ animation:clouds_anim 600s linear infinite;
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 body {
-  background: #870f87;
+  background: #000053;
   font-family: Open Sans;
   font-size: 50px;
   color: #222;
@@ -69,8 +69,8 @@ label {
   width: 1030px;
   height: 1600px;
   position: absolute;
-  left: 50%;
-  top: 50%;
+  left: 51%;
+  top: 51%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   cursor: pointer;
@@ -82,8 +82,8 @@ label {
   width: 100%;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -webkit-transition: all 600ms;
-  transition: all 600ms;
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
   z-index: 20;
 }
 
