@@ -54,7 +54,7 @@ animation:clouds_anim 600s linear infinite;
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 body {
-  background: #000053;
+  background: #000087;
   font-family: Open Sans;
   font-size: 50px;
   color: #222;
@@ -69,8 +69,8 @@ label {
   width: 1030px;
   height: 1600px;
   position: absolute;
-  left: 51%;
-  top: 51%;
+  left: 50%;
+  top: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   cursor: pointer;
