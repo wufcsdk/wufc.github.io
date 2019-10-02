@@ -41,7 +41,7 @@ margin-left: -20px;
 /* menyn */
 .botten {
   overflow: hidden;
-bottom:  -20px; /* Position the navbar at the top of the page */
+bottom:  -50px; /* Position the navbar at the top of the page */
   position: fixed; /* Set the navbar to fixed position */
 width: 100%; /* Full width */
 height: auto;
