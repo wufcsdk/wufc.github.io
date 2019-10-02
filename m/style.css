@@ -48,6 +48,14 @@ height: 300px;
 left: 0px;
 }
 
+.botten2 {
+  overflow: hidden;
+bottom:  -180px; /* Position the navbar at the top of the page */
+  position: fixed; /* Set the navbar to fixed position */
+width: 100%; /* Full width */
+height: 300px;
+left: 0px;
+}
 
 
 
