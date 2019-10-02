@@ -16,7 +16,7 @@
   overflow: hidden;
   background-color: #000087;
   position: fixed; /* Set the navbar to fixed position */
-  top: -200px; /* Position the navbar at the top of the page */
+  top: -220px; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
 height: 300px;
   align-content: center;
