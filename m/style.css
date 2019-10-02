@@ -1,10 +1,10 @@
 
 /* Loggan bla */
 .navbar {
-  overflow: hidden;
+  overflow: visible;
   background-color: #000087;
   position: fixed; /* Set the navbar to fixed position */
-  top: -150px; /* Position the navbar at the top of the page */
+  top: 50px; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   height: 300px;
   align-content: center;
@@ -18,7 +18,7 @@
   position: fixed; /* Set the navbar to fixed position */
   top: -150px; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
-  
+
   align-content: center;
   left: 0px;
 
