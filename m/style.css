@@ -4,14 +4,25 @@
   overflow: hidden;
   background-color: #000087;
   position: fixed; /* Set the navbar to fixed position */
-  top: -157px; /* Position the navbar at the top of the page */
+  top: -150px; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
-  height: auto;
+  height: 300px;
   align-content: center;
   left: 0px;
 
 }
 
+.navbar2 {
+  overflow: hidden;
+  background-color: #000087;
+  position: fixed; /* Set the navbar to fixed position */
+  top: -150px; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  
+  align-content: center;
+  left: 0px;
+
+}
 
 /* scrollbart */
 .main {
