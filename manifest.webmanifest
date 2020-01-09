@@ -1,0 +1,22 @@
+{
+	"dir" : "ltr",
+	"lang" : "en",
+	"name" : "Studentkortet",
+	"scope" : "/k2/",
+	"display" : "standalone",
+	"start_url" : "https://wufcsdk.github.io",
+	"short_name" : "",
+	"theme_color" : "rgba(0,0,0,0.5)",
+	"description" : "",
+	"orientation" : "portrait",
+	"background_color" : "transparent",
+	"related_applications" : "",
+	"prefer_related_applications" : "false",
+	"icons" : [
+		{
+			"src": "https://wufcsdk.github.io/apple-touch-icon.png",
+			"sizes": "180x180"
+		}],
+	"screenshots" : [],
+	"generated" : "true"
+}
