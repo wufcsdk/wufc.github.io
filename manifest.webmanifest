@@ -2,7 +2,7 @@
 	"dir" : "ltr",
 	"lang" : "en",
 	"name" : "Studentkortet",
-	"scope" : "/",
+	"scope" : "/k2/",
 	"display" : "standalone",
 	"start_url" : "https://wufcsdk.github.io",
 	"short_name" : "",
